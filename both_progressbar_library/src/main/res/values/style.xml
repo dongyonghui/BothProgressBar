@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultBothProgressStyle">
+        <!-- indicator -->
+        <!-- 设置目标指示器颜色 -->
+        <item name="dyh_indicator_color">#F44336</item>
+        <!-- 设置目标指示器高度 -->
+        <item name="dyh_progress_height">10dp</item>
+        <!-- 设置目标指示器固定宽度，默认10dp -->
+        <item name="dyh_indicator_width">10dp</item>
+        <!--最大值，默认100-->
+        <item name="dyh_max_value">100</item>
+        <!--最小值，默认0-->
+        <item name="dyh_min_value">0</item>
+        <!-- 设置目标指示器数值,-->
+        <item name="dyh_indicator_value">0</item>
+        <!-- 设置进度条数值-->
+        <item name="dyh_progress_value">0</item>
+        <!-- 设置进度条颜色 -->
+        <item name="dyh_progress_color">#3F51B5</item>
+        <!-- 设置背景颜色 -->
+        <item name="dyh_background_color">#FFFFFF</item>
+        <item name="dyh_progressBackground_color">#C7C7C7</item>
+
+        <!--文本的边距-->
+        <item name="dyh_text_margin">3dp</item>
+        <!-- 设置目标指示器圆角弧度-->
+        <item name="dyh_indicator_corner_radius">0dp</item>
+        <!-- 设置进度条圆角弧度-->
+        <item name="dyh_background_corner_radius">0dp</item>
+
+        <!-- title -->
+        <!-- 设置字体大小,默认10sp -->
+        <item name="dyh_textSize">10sp</item>
+        <!-- 设置字体选中颜色 -->
+        <item name="dyh_textColor">#121212</item>
+        <!--默认不展示文本-->
+        <item name="dyh_showText">false</item>
+    </style>
+</resources>

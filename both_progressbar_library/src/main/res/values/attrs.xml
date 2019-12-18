@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="Themes">
+        <attr name="targetValueProgressStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BothProgressBar">
+        <!-- indicator -->
+        <!-- 设置目标指示器颜色 -->
+        <attr name="dyh_indicator_color" format="color" />
+        <!-- 设置进度条高度 -->
+        <attr name="dyh_progress_height" format="dimension" />
+        <!-- 设置目标指示器固定宽度，默认10dp -->
+        <attr name="dyh_indicator_width" format="dimension" />
+        <!--最大值，默认100-->
+        <attr name="dyh_max_value" format="float" />
+        <!--最小值，默认0-->
+        <attr name="dyh_min_value" format="float" />
+        <!-- 设置目标指示器数值,-->
+        <attr name="dyh_indicator_value" format="float" />
+        <!-- 设置进度条数值-->
+        <attr name="dyh_progress_value" format="float" />
+        <!-- 设置进度条颜色 -->
+        <attr name="dyh_progress_color" format="color" />
+        <!-- 设置背景颜色 -->
+        <attr name="dyh_background_color" format="color" />
+        <attr name="dyh_progressBackground_color" format="color" />
+
+        <!--文本的边距-->
+        <attr name="dyh_text_margin" format="dimension" />
+        <!-- 设置目标指示器圆角弧度-->
+        <attr name="dyh_indicator_corner_radius" format="dimension" />
+        <!-- 设置进度条圆角弧度-->
+        <attr name="dyh_background_corner_radius" format="dimension" />
+        <!-- title -->
+        <!-- 设置字体大小,默认10sp -->
+        <attr name="dyh_textSize" format="dimension" />
+        <!-- 设置字体选中颜色 -->
+        <attr name="dyh_textColor" format="color" />
+        <!-- 设置字体 -->
+        <attr name="dyh_progressText" format="string" />
+        <attr name="dyh_indicatorText" format="string" />
+        <!--是否展示文本信息-->
+        <attr name="dyh_showText" format="boolean" />
+    </declare-styleable>
+</resources>

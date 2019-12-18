@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <com.dyh.widget.BothProgressBar
+        android:id="@+id/mBothProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" />
+
+    <com.dyh.widget.BothProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:dyh_background_color="#9E54AB"
+        app:dyh_background_corner_radius="20dp"
+        app:dyh_indicatorText="当前进度20%"
+        app:dyh_indicator_color="#00BCD4"
+        app:dyh_indicator_corner_radius="3dp"
+        app:dyh_indicator_value="20"
+        app:dyh_indicator_width="3dp"
+        app:dyh_max_value="100"
+        app:dyh_min_value="0"
+        app:dyh_progressBackground_color="#8E7F93E5"
+        app:dyh_progressText="当前进度50%"
+        app:dyh_progress_color="#673AB7"
+        app:dyh_progress_height="20dp"
+        app:dyh_progress_value="50"
+        app:dyh_showText="true"
+        app:dyh_textColor="#4CAF50"
+        app:dyh_textSize="12sp"
+        app:dyh_text_margin="5dp" />
+</LinearLayout>
