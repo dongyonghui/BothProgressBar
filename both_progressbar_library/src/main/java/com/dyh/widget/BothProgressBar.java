@@ -13,9 +13,6 @@ import android.widget.TextView;
 
 import com.dyh.bothprogressbar.lib.R;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
 /**
  * 作者：DongYonghui
  * 邮箱：648731994@qq.com
@@ -35,7 +32,7 @@ public class BothProgressBar extends FrameLayout {
 
     private ProgressBuildConfig buildConfig;
 
-    public BothProgressBar(@NonNull Context context) {
+    public BothProgressBar(Context context) {
         this(context, null);
     }
 
@@ -43,7 +40,7 @@ public class BothProgressBar extends FrameLayout {
         this(context, attrs, R.attr.targetValueProgressStyle);
     }
 
-    public BothProgressBar(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public BothProgressBar(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         this.mContext = context;
         rootView = LayoutInflater.from(context).inflate(R.layout.layout_target_value_progress_bar, this, true);
