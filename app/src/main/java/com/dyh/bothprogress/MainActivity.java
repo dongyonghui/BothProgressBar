@@ -1,13 +1,12 @@
 package com.dyh.bothprogress;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.os.Bundle;
 
 import com.dyh.widget.BothProgressBar;
 import com.dyh.widget.ProgressBuildConfig;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private BothProgressBar mBothProgressBar;
 
