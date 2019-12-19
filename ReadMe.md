@@ -1,4 +1,19 @@
 ![效果图](https://image.goukugogo.com/201912180433082995e547035)
+# gradle引入方法
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.dongyonghui:BothProgressBar:1.2'
+	}
+
 # 布局中使用
 ```
 <!-- 简单的引入 -->
